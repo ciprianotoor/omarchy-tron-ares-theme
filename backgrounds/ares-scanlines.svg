@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#050105"/><stop offset=".48" stop-color="#20030d"/><stop offset="1" stop-color="#050105"/></linearGradient>
+    <pattern id="scan" width="1" height="8" patternUnits="userSpaceOnUse"><rect width="1" height="2" fill="#ff1744" opacity=".10"/></pattern>
+    <radialGradient id="red"><stop stop-color="#ff1744" stop-opacity=".45"/><stop offset="1" stop-color="#ff1744" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/><rect width="1920" height="1080" fill="url(#scan)"/>
+  <ellipse cx="960" cy="560" rx="680" ry="420" fill="url(#red)" opacity=".35"/>
+  <g fill="none" stroke="#ff1744"><path d="M0 160H1920 M0 300H1920 M0 440H1920 M0 580H1920 M0 720H1920 M0 860H1920" stroke-width="2" opacity=".20"/><path d="M0 1080L960 0L1920 1080" stroke-width="3" opacity=".38"/><path d="M360 1080L960 380L1560 1080" stroke-width="1" opacity=".45"/><path d="M0 920L960 500L1920 920" stroke-width="2" opacity=".6"/></g>
+  <g fill="#ff1744"><circle cx="960" cy="500" r="5"/><circle cx="360" cy="1080" r="4"/><circle cx="1560" cy="1080" r="4"/></g>
+</svg>
